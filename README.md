@@ -6,13 +6,27 @@ wordgen uses a tiny language to cover the phonotactical description of a phonolo
 
 ## Usage
 
-After compiling with `make`, the executable will be bin/main. Run it then with `bin/main [file name]`. The file will be searched for in the languages/ directory.
+After compiling with `make`, the executable will be bin/main. Run it then with `bin/main <file name>`. The file will be searched for in the languages/ directory.
+
+The way it is set by default, it parse the file and generate a short text. 
 
 ## Syntax
 
+The syntax is pretty rigid now, but I'll change it as soon as I find some spare time.
 
+Every syllable is defined through a sequence of upper case characters, each of them referring to a set of phonemes. Parenthesis can also be used to make enclosing elements optional, appearing 50% of the fime.
+An example would be having the sets C = { f, g, th, m, ͼ, ϝr }, V = { a, i, u, υ, η } and F = { n, l, w } and syllables (C)VV and C(C)V(F). This could generate words like faathmυj, ͼηlmiw, gun and ϝrinfguwmal.
 
-### Emergent tricks
+Back to sirious. The file containing the description must be divided into sections, all of them divided by a line consisting only of `.`.
+
+The first section contains the sets of glyphs and the single character, upper case name you give it, following the pattern `<Char> = { <list of glyphs, separated with commas>`.
+
+The second section contains syllable structures, one in each line. It can consist of upper case characters and, optionally, parenthesis to show optionality.
+The program does not yet check that the characters you're using here have been previously defined in the first section D= it won't notice untill runtime.
+
+You can also check the files in the languages/ directory to see some examples.
+
+#### Emergent tricks
 
 (C)V(F) (C)V
 
@@ -22,7 +36,9 @@ After compiling with `make`, the executable will be bin/main. Run it then with `
 	* Allow for empty lines.
 	* Allow comments anywhere.
 
-### Catched bugs still to be set free:
+* Convert into a more sofisticated typed, interpreted language.
+
+## Catched bugs still to be set free:
 
 * Word and sentence lengths, although sticking to normal distribution, always produces the exact same values.
 
