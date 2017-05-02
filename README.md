@@ -6,7 +6,11 @@ wordgen uses a tiny language to cover the phonotactical description of a phonolo
 
 ## Usage
 
-
+After compiling with
+	make
+the executable will be bin/main. Use the program with
+	bin/main <file name>
+The file will be searched for in the languages/ directory.
 
 ## Syntax
 
@@ -18,12 +22,12 @@ wordgen uses a tiny language to cover the phonotactical description of a phonolo
 
 ## Planned enhancements
 
-	Make syntax less rigid:
-		Allow for empty lines.
-		Allow comments anywhere.
+* Make syntax less rigid:
+	* Allow for empty lines.
+	* Allow comments anywhere.
 
 ### Catched bugs still to be set free:
 
-	* Word and sentence lengths, although sticking to normal distribution, always produces the exact same values.
+* Word and sentence lengths, although sticking to normal distribution, always produces the exact same values.
 
-	* ((A)B)C should be able to generate ABC, BC and C, but now only generates wither ABC or C.
+* ((A)B)C should be able to generate ABC, BC and C, but now only generates wither ABC or C.
