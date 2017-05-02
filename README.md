@@ -6,11 +6,7 @@ wordgen uses a tiny language to cover the phonotactical description of a phonolo
 
 ## Usage
 
-After compiling with
-	make
-the executable will be bin/main. Use the program with
-	bin/main <file name>
-The file will be searched for in the languages/ directory.
+After compiling with `make`, the executable will be bin/main. Run it then with `bin/main [file name]`. The file will be searched for in the languages/ directory.
 
 ## Syntax
 
