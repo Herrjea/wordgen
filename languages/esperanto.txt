@@ -1,0 +1,12 @@
+C = { b, c, ĉ, d, f, g, ĝ, h, ĥ, j, ĵ, k, l, m, n, p, r, s, ŝ, t, v, z, bl, br, dr, fl, fr, gl, gn, gr, gv, kl, kn, kr, kv, pl, pr, sc, sk, skl, skr, sl, sm, sn, sp, spl, spr, st, str, sv, ŝl, ŝm, ŝn, ŝr, ŝp, ŝpr, ŝt, ŝtr, ŝv, tr }
+V = { a, e, i, o, u, aj, aŭ, ej, eŭ, oj, uj }
+F = { d, k, l, n, r, s }
+.
+(C)V(F)
+(C)V
+#
+Changes to make with future improvements to the language capabilities:
+	Clusters allowed only in first syllable position
+		sC(r/l)
+		kC
+	Words ending with permitted gramatical coda
