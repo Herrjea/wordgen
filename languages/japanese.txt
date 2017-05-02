@@ -1,0 +1,16 @@
+Z = { k, kk, s, ss, t, tt, n, h, m, y, r, w, g, sh, ssh, ch, b, p, pp }
+C = { k, s, t, n, h, m, y, r, w, g, sh, ch, b, p }
+V = { a, i, u, e, o }
+W = { aa, ii, uu, ee, oo }
+Y = { y }
+N = { n }
+.
+CV
+(C)V
+(C)V(N)
+.
+3 1.45
+#
+Reduplicar consonantes no iniciales
+monosyllabic = last = middle
+

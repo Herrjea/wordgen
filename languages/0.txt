@@ -1,0 +1,9 @@
+C = { p, t, k, b, d, g }
+R = { r, l }
+V = { a, æ, e, o, u, ÿi }
+A = { ' }
+I = { i, y, ij }
+F = { p, t, k, ch, m, s }
+.
+(C)V(((A)I)F)
+(C)V(F)

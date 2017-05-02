@@ -1,0 +1,19 @@
+C = { st, zd, k, kr, b, d, g, gr, r, l, þ, ŧ, þr, ŧr }
+S = { s }
+Z = { z }
+K = { t, k, kr, þ, ŧ, þr, ŧr }
+G = { d, g, gr, b, r, l, m }
+J = { j, w }
+V = { a, i, ι, o, ø }
+F = { ng, b, d, g, ch, m, s, z, l }
+.
+(K)(J)V(F)
+(K)V(J)(F)
+(G)(J)V(F)
+(G)V(J)(F)
+(SK)(J)V(F)
+(SK)V(J)(F)
+(ZG)(J)V(F)
+(ZG)V(J)(F)
+#
+Fix the thing with the ((S)K)
