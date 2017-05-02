@@ -12,5 +12,4 @@ CV
 3 1.45
 #
 Reduplicar consonantes no iniciales
-monosyllabic = last = middle
-
+Still work to do until it becomes available to describe phonotactics accepting reduplication D=

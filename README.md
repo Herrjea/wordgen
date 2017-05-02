@@ -8,14 +8,14 @@ wordgen uses a tiny language to cover the phonotactical description of a phonolo
 
 After compiling with `make`, the executable will be bin/main. Run it then with `bin/main <file name>`. The file will be searched for in the languages/ directory.
 
-The way it is set by default, it parse the file and generate a short text. 
+The way it is set by default, it parses the file and generates a short, cute, random text. 
 
 ## Syntax
 
 The syntax is pretty rigid now, but I'll change it as soon as I find some spare time.
 
 Every syllable is defined through a sequence of upper case characters, each of them referring to a set of phonemes. Parenthesis can also be used to make enclosing elements optional, appearing 50% of the fime.
-An example would be having the sets C = { f, g, th, m, ͼ, ϝr }, V = { a, i, u, υ, η } and F = { n, l, w } and syllables (C)VV and C(C)V(F). This could generate words like faathmυj, ͼηlmiw, gun and ϝrinfguwmal.
+An example would be having the sets C = { f, g, th, m, ͼ, ϝr }, V = { a, i, u, υ, η } and F = { n, l, w } and syllables (C)VV and C(C)V(F). This could generate words like faathmυj, ͼηlmiw, fun and ϝrinfguwmal.
 
 Back to serious. The file containing the description must be divided into sections, all of them divided by a line consisting only of `.`. After the last one, a line consisting only of `#`, and all lines after that will be omitted.
 
@@ -32,7 +32,8 @@ You can also check the files in the languages/ directory to see some examples.
 
 #### Emergent tricks
 
-(C)V(F) (C)V
+There is currently no way to directly assign different probabilities to a certain syllable structure, the syllable is always equiprobably chosen from all the existing ones. But a nice way to mischievously simulate it is by intentionally adding several times a certain syllable.
+For instance, having the sets  above defined, if we want a (C)V(F) structure where F appears very few times, an option would be adding (C)V(F) once and (C)V a couple times. Not that classy, I know.
 
 ## Planned enhancements
 
@@ -40,7 +41,7 @@ You can also check the files in the languages/ directory to see some examples.
 	* Allow for empty lines.
 	* Allow comments anywhere.
 
-* Convert into a more sofisticated typed, interpreted language.
+* Convert into a more sofisticated typed, interpreted, gentle-to-use language.
 
 ## Catched bugs still to be set free:
 
