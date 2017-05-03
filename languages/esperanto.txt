@@ -9,4 +9,4 @@ Changes to make with future improvements to the language capabilities:
 	Clusters allowed only in first syllable position
 		sC(r/l)
 		kC
-	Words ending with permitted gramatical coda
+	Higher frequency of words ending with permitted gramatical coda

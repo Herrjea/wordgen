@@ -1,15 +1,20 @@
-Z = { k, kk, s, ss, t, tt, n, h, m, y, r, w, g, sh, ssh, ch, b, p, pp }
 C = { k, s, t, n, h, m, y, r, w, g, sh, ch, b, p }
-V = { a, i, u, e, o }
-W = { aa, ii, uu, ee, oo }
-Y = { y }
+A = { a, i, u, e, o }
+V = { a, i, u, e, o, ā, ī, ū, ē, ō }
+W = { a, u, o, a, u, o, ā, ū, ō }
+Y = { y, ky, sh, ch, ny, hy, my }
 N = { n }
 .
+CA
+CA
+(C)A(N)
 CV
-(C)V
+CV
 (C)V(N)
+YW
 .
 3 1.45
 #
-Reduplicar consonantes no iniciales
-Still work to do until it becomes available to describe phonotactics accepting reduplication D=
+Changes to make with future improvements to the language capabilities:
+	Geminate non-initial consonants
+	Instead of starting with Hepburn, move it to Nihon-shiki and then apply context transformation rules to make it look Hepburn, in order not to generate non native Japanese combinations (tsa, je, hu, si).

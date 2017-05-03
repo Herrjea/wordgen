@@ -33,7 +33,11 @@ You can also check the files in the languages/ directory to see some examples.
 #### Emergent tricks
 
 There is currently no way to directly assign different probabilities to a certain syllable structure, the syllable is always equiprobably chosen from all the existing ones. But a nice way to mischievously simulate it is intentionally adding several times a certain syllable.
-For instance, having the sets  above defined, if we want a (C)V(F) structure where F appears very few times, an option would be adding (C)V(F) once and (C)V a couple times. Not that classy, I know.
+For instance, having the sets  above defined, if we want a (C)V(F) structure where F appears very few times, an option would be adding (C)V(F) once and (C)V a couple times.
+
+Another way to simulate it is adding more parenthesis, so that instead of having (C)V(F), with F appearing 50% of the times, you can have (C)V((F)), with F appearing 25% of the times.
+
+Not that classy either way, I know. But it's fun how lawful evil it looks!
 
 ## Planned enhancements
 
@@ -44,6 +48,8 @@ For instance, having the sets  above defined, if we want a (C)V(F) structure whe
 * Convert into a more sofisticated typed, interpreted, gentle-to-use language to be able to cover more restrictions (defining words with syllables instead of having them always randomly chosen, making syllables appear again randomly but only in certain positions inside a word, allow vowel harmony, etc.).
 
 * Transform internally into context-free grammar and apply Early's parsing algorithm to a given text, in order to check if the described phonollogy really applies to all the shown words in the language.
+
+* Way to prohibit the grammar to generate certain type of syllables next to each other.
 
 ## Catched bugs still to be set free
 
