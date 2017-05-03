@@ -49,7 +49,7 @@ Not that classy either way, I know. But it's fun how lawful evil it looks!
 
 * Transform internally into context-free grammar and apply Early's parsing algorithm to a given text, in order to check if the described phonollogy really applies to all the shown words in the language.
 
-* Way to prohibit the grammar from generating certain type of syllables next to each other.
+* Way to prohibit the grammar from generating certain types of syllables next to each other.
 
 ## Catched bugs still to be set free
 
