@@ -1,0 +1,32 @@
+C = { b, br, bl, c, cr, cl, d, dr, f, fr, fl, g, gr, gl, h, j, l, m, n, ñ, p, pr, pl, r, s, t, tr, v, y }
+Q = { b, br, bl, c, cr, cl, d, dr, f, fr, fl, g, gu, gr, gl, h, j, l, m, n, ñ, p, pr, pl, qu, r, s, t, tr, v }
+Z = { b, br, bl, c, cr, cl, d, dr, f, fr, fl, g, gr, gl, h, j, l, m, n, ñ, p, pr, pl, r, s, t, tr, v, y, z }
+V = { a, e, i, o, u, a, e, i, o, u, a, e, i, o, u, a, e, i, o, u, a, e, i, o, u, ai, au, ei, eu, ia, ie, io, iu, oi, ua, ue, ui }
+A = { a, o, u, a, o, u, a, o, u, a, o, u, a, o, u, ai, au, oi, ua, ue, ui }
+E = { e, i, e, i, e, i, e, i, e, i, ei, eu, ia, ie, io, iu }
+W = { a, e, i, o, u }
+F = { n, r, s, n, r, s, l }
+.
+CV
+QE
+ZA
+CV(F)
+QE(F)
+ZA(F)
+CW(F)
+.
+3 1
+#
+
+This does not even look like an attempt yet D= It sometimes generates words that actually fit into Spanish mainstream phonotactics (cuce, puyobra, rengria, faitano, ses, meye, vayugo), but still has a great Latin-Portuguese-Dothraki flavour (vicru, flus, gliglebiur, deuprior, jui, anhorau, crol, crelfrer, hurrurcun).
+
+Still to do, after further improvements to the description language:
+	no ending u (there are words like espíritu, but they really fit better in Latin than they do in Spanish D= )
+	no ending i in pollysyllabic words (at least while there's no accents involved, as they appear veeeery seldom (maniquí, colibrí, but again accent would save them) in non past verb forms (comí, aprendí))
+	no sr
+	h only at word initial position (habas) or after vowel (búho) and s (deshacer)
+	c, z and d into codas, but not always
+	accents, but only one per word
+	shift Vi at word end into Vy (but fui!)
+	assimilate nasal to next consonant
+	dissolve geminations different from rr and ll
