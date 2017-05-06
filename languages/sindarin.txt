@@ -1,0 +1,27 @@
+C = { t, d, th, thr, dh, dhr, p, b, br, f, v, c, g, kh, gh, n, m, r, rh, l, lh, z, h }
+W = { qu, gw, khw, ghw, nw, hw, }
+Y = { y, ly, my, ny, ry }
+V = { a, e, i, o, u, y, á, é, í, ó, ú, ý ai, oi, ui, au, eu, iu, a, e, i, o, u, y, á, é, í, ó, ú, ý, a, e, i, o, u, y, a, e, i, o, u, y }
+U = { a, e, i, o, á, é, í, ó, ai, oi, au, eu, a, e, i, o, á, é, í, ó, a, e, i, o, a, e, i, o }
+I = { a, e, o, u, á, é, ó, ú, ai, oi, ui, au, eu, a, e, o, u, á, é, ó, ú, a, e, o, u, a, e, o, u }
+F = { m, n, l, r, s, f, d, th, dh, b, g, m, n, l, r, s, th, m, n, l, r, s }
+.
+CV
+CV(F)
+(C)V(F)
+(W)U(F)
+(Y)I(F)
+CV(F)
+CV(F)
+.
+3 1
+#
+Still:
+	allow nt, rn, nc, st, lf, nn and ss at word ending
+	not allow two only-vowel syllables in a row
+	not allow long nuclei in the last syllable of a word
+	shift final e into ë
+	shift nB into mB
+	shift f into ph when word final and into v when after n
+	possibility to geminate next c, l, m, n, p, r or t
+I just don't get how ts, ps and ks work in Sindarin
