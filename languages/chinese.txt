@@ -1,9 +1,0 @@
-C = { b, p, m, f, d, t, n, l, g, k, h, j, ji, q, qi, x, xī, zh, ch, sh, r, z, c, s, y, w }
-V = { ī, í, ǐ, ì, ǖ, ǘ, ǚ, ǜ, ū, ú, ǔ, ù, ē, é, ě, è, ō, ó, ǒ, ò, ā, á, ǎ, à, āi, ái, ǎi, ài, ēi, éi, ěi, èi, āo, áo, ǎo, ào, ōu, óu, ǒu, òu, uā, uá, uǎ, uà, uō, uó, uǒ, uò, uǒ, uò, uāi, uái, uǎi, uài, uī, uí, uǐ, uì, uē, ué, uě, uè, üē, üé, üě, üè }
-F = { n, ng }
-.
-CV
-CV(F)
-#
-Absolute baby stage. Current rules could make it be much more pinyin like, but haven't done so yet.
-Like the other ones, still to be improved by further enhancements to the language description capabilities.
