@@ -1,0 +1,14 @@
+C = { b, c, cs, d, dz, dzs, f, g, gy, h, j, k, l, m, n, ny, p, r, s, sz, t, ty, v, z, zs }
+V = { a, á, e, é, i, í, o, ó, u, ú, ö, ő, ü, ű }
+F = { b, bb, cs, d, g, gy, j, k, kk, l, ll, ly, m, n, nn, ny, p, r, s, ss, sz, ssz, t, tt, ty, v, z }
+.
+CV((F))
+(C)V(F)
+.
+4 1.5
+#
+Again, still to improve with:
+	vowel harmony
+	no three equal consonants or two equal vowels in a row
+	no two equal vowels in a row
+	allow reduplication of next consonant as coda
