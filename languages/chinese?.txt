@@ -5,5 +5,5 @@ F = { n, ng }
 CV
 CV(F)
 #
-Absolute baby stage. Current rules could make it be much more pinyin like, but haven't done so yet.
+Absolute baby stage. Current rules could make it be much more pinyin like, but haven't acheived so yet D=.
 Like the other ones, still to be improved by further enhancements to the language description capabilities.

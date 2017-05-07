@@ -8,7 +8,7 @@ CV((F))
 4 1.5
 #
 Again, still to improve with:
-	vowel harmony
+	force vowel harmony
+	allow reduplication of next consonant as coda
 	no three equal consonants or two equal vowels in a row
 	no two equal vowels in a row
-	allow reduplication of next consonant as coda

@@ -1,13 +1,23 @@
-C = { k, kh, g, gh, ṅ, c, ch, j, jh, ñ, ṭ, ṭh, ḍ, ḍh, ṇ, t, th, d, dh, n, p, ph, b, bh, m, y, r, l, v, ś, ṣ, s, h, q, ġ, z, zh, f, ṛ, ṛh }
-V = { a, i, u, e, o }
-L = { ā, ī, ū, ē, ai, ō, au }
-F = { k, c, j, ṭ, ṭh, ḍ, ḍh, t, d, dh, n, p, r, ś, s, h, ṛ }
+C = { k, kh, g, gh, c, ch, j, jh, t, th, d, dh, n, p, ph, b, bh, m, y, r, l, v, s, h, q, z, zh, f }
+V = { a, i, u, e, o, a, a, u, o }
+L = { ā, ī, ū, ē, ai, ō, au, ā, ā, ū }
+F = { k, c, j, t, d, dh, m, n, p, b, r, s, h, f }
 E = { tt, dd }
 .
+CV
 CV((F))
 CL((F))
 CV((E))
 CL((F))
+.
+2 0.5
 #
 m̐!
 Why are some letters bigger D= It's so ugly DDDD=
+It had more consonants before, with sets defined this way:
+	C = { k, kh, g, gh, ṅ, c, ch, j, jh, ñ, ṭ, ṭh, ḍ, ḍh, ṇ, t, th, d, dh, n, p, ph, b, bh, m, y, r, l, v, ś, ṣ, s, h, q, ġ, z, zh, f, ṛ, ṛh }
+	V = { a, i, u, e, o, a, a, u }
+	L = { ā, ī, ū, ē, ai, ō, au, ā, ā, ū }
+	F = { k, c, j, ṭ, ṭh, ḍ, ḍh, t, d, dh, m, n, p, b, r, ś, s, h, f, ṛ }
+	E = { tt, dd },
+but it was a complete aesthetic disaster the way it looked with some letters being much larger than others.
