@@ -7,3 +7,4 @@ CV
 (C)V
 #
 Cute phonology, and so easily fittable! Hard to believe it's a natlang.
+
