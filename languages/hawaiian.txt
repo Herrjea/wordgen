@@ -1,0 +1,9 @@
+C = { m, n, p, k, ', h, w }
+V = { u, i, o, e, a, ū, ī, ō, ē, ā, iu, ou, eu, au, oi, ei, ai, ao, ae, ou, āu, ēi, āi, āo, āe }
+.
+CV
+CV
+CV
+(C)V
+#
+Cute phonology, and so easily fittable! Hard to believe it's a natlang.
