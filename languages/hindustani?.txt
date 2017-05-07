@@ -1,0 +1,13 @@
+C = { k, kh, g, gh, ṅ, c, ch, j, jh, ñ, ṭ, ṭh, ḍ, ḍh, ṇ, t, th, d, dh, n, p, ph, b, bh, m, y, r, l, v, ś, ṣ, s, h, q, ġ, z, zh, f, ṛ, ṛh }
+V = { a, i, u, e, o }
+L = { ā, ī, ū, ē, ai, ō, au }
+F = { k, c, j, ṭ, ṭh, ḍ, ḍh, t, d, dh, n, p, r, ś, s, h, ṛ }
+E = { tt, dd }
+.
+CV((F))
+CL((F))
+CV((E))
+CL((F))
+#
+m̐!
+Why are some letters bigger D= It's so ugly DDDD=
