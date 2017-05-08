@@ -1,0 +1,21 @@
+C = { m, n, p, k, s, l, p, l, l }
+J = { j, t }
+W = { w }
+V = { a, e, i, o, u, a, e, i, o, a, i, a, i }
+I = { a, e, o, u, a, e, o, a }
+U = { a, e, i, o, a, e, i, a, i }
+F = { n }
+.
+CV
+(C)V(F)
+JI
+WU
+CV
+CV
+#
+This time set and syllable frequencies just found me, instead of the other way around =D.
+I'ts nice to see how Toki Pona is more phonetically restrictive that Hawaiian!
+
+Still, with further enhancements to the language:
+	not allow coda n before nasal onset
+	V syllables only word-initial
