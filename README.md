@@ -45,11 +45,13 @@ Not that classy either way, I know. But it's fun how lawful evil it looks!
 	* Allow for empty lines.
 	* Allow comments anywhere.
 
+* Way to prohibit the grammar from generating certain types of syllables next to each other.
+
+* More verbose explanation of where the problem is in a file, instead of just "line 3" or "segmentation fault!".
+
 * Convert into a more sofisticated typed, interpreted, gentle-to-use language to be able to cover more restrictions (defining words with syllables instead of having them always randomly chosen, making syllables appear again randomly but only in certain positions inside a word, allow vowel harmony, etc.).
 
 * Transform internally into context-free grammar and apply Early's parsing algorithm to a given text, in order to check if the described phonollogy really applies to all the shown words in the language.
-
-* Way to prohibit the grammar from generating certain types of syllables next to each other.
 
 ## Catched bugs still to be set free
 
